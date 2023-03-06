@@ -1,0 +1,7 @@
+p {
+    font-family: 'Courier New', Courier, monospace;
+    &.scss {
+        font-size: 2rem;
+        color: green;
+    }
+}

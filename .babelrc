@@ -1,0 +1,19 @@
+{ 
+  "presets": [
+    "@babel/preset-env"
+    
+    // configuracion avanzada
+    // ["@babel/preset-env", {
+    //     "useBuiltIns": "usage",
+    //       "debug": true,
+    //     "corejs": 3
+    //      }
+    // ]
+        // ,[  // si usas react 
+        //     "@babel/preset-react",
+        //     {   // para no tener que importar cada vez a react en cada archivo
+        //         "runtime": "automatic"
+        //     }
+        // ]
+    ]
+}
